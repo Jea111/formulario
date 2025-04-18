@@ -1,0 +1,33 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f9fa;
+}
+
+.card-title {
+  color: #1d3557;
+}
+
+.precio {
+  font-size: 1.2rem;
+}
+.card-text {
+  font-family: cursive;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #777;
+}
+.card-img-top {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
