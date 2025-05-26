@@ -18,7 +18,7 @@ const dataBase = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "formulario",
+  database: "empleados",
 });
 
 dataBase.connect((error) => {

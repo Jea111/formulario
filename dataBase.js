@@ -5,7 +5,7 @@ const connection = mySql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "restaurante",
+  database: "empleados",
 });
 
 //EXAMINAR SI FUE EXITOSA LA CONECCION
